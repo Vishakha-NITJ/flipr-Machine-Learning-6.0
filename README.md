@@ -5,53 +5,53 @@
 ### Problems:
 
 1. The objective of the first part of the problem statement is to predict the Covid Cases of a
-   City on 1st September 2020. 
+   City on 1st September 2020. <br>
    The Output file 01 should contain only City and the respective Covid Cases for the test data.
 
 2. The Foreign Visitors of a city is a time-dependent parameter, for which you have to come up
    with a Time-series prediction model. Using the Foreign Visitors predicted by the model, you
-   need to calculate the Covid Cases on 1st Oct 2020 for every City in the test data.
+   need to calculate the Covid Cases on 1st Oct 2020 for every City in the test data.<br>
    The Output file 02 should contain only City and the respective Covid Cases on 1st October.
 
 ### File Description:
 
-1.  Variable-Description.xlsx:
+1.  Variable-Description.xlsx :<br>
     This file contains description of all the variables available in the dataset
 
-2.  Train-dataset.xlsx:
+2.  Train-dataset.xlsx :<br>
     This is the training dataset on which model has to be trained, which contains parameters of a
     city on 1st September 2020
 
-3.  Test-dataset.xlsx (Test_data,Foreign_Visitors_TS):
-    This is the test data on which accuracy of the model will be computed. 
+3.  Test-dataset.xlsx (Test_data,Foreign_Visitors_TS) :<br>
+    This is the test data on which accuracy of the model will be computed. <br>
     It also contains Time Series data of Foreign Visitors to be used for Problem – 2.
 
-4.  Hackathon_6.0_ML_Guidelines.pdf:
+4.  Hackathon_6.0_ML_Guidelines.pdf :<br>
     Background of the Problem and Guidelines
 
-5.  Solution-Sheet.docx:
+5.  Solution-Sheet.docx :<br>
     Approach Document - mentions briefly how I solved the problem.
 
-6.  00.ipynb:
+6.  00.ipynb :<br>
     Basic EDA
 
-7.  01.ipynb:
+7.  01.ipynb :<br>
     Notebook on problem-1 (Experiments and Solution)
 
-8.  02.ipynb:
+8.  02.ipynb :<br>
     Notebook on problem-2 (Experiments and solution)
 
-9.  Output file 01.csv:
+9.  Output file 01.csv :<br>
     Solution (Predictions) of Problem-1
 
-10. Output file 02.csv:
+10. Output file 02.csv :<br>
     Solution (Predictions) of Problem-2
 
-11. test1 - Pandas Profiling Report.html
+11. test1 - Pandas Profiling Report.html :<br>
     Pandas Profiling Report of Test_data .
 
-12. test2 - Pandas Profiling Report.html
+12. test2 - Pandas Profiling Report.html :<br>
     Pandas Profiling Report of Foreign_Visitors_TS .
 
-13. train - Pandas Profiling Report.html
+13. train - Pandas Profiling Report.html :<br>
     Pandas Profiling Report of Train-dataset.
